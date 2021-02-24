@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 @media(max-width: 1080px){
     html {
@@ -35,5 +36,8 @@ body{
 }
     body, input, textarea, button {
     font: 400 1rem 'Inter', sans-serif;
+}
+button {
+    cursor: pointer;
 }
 
